@@ -21,12 +21,8 @@ public class calcController extends HttpServlet {
 		String str = req.getParameter("str");
 		String dot = req.getParameter("dot");
 		
-		
-		
-		
-		
-		
 		resp.getWriter().println("num : "+num);
+		
 		
 	}
 	
