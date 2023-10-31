@@ -20,5 +20,16 @@ public class calcController extends HttpServlet {
 		int num = Integer.parseInt(req.getParameter("num"));
 		String str = req.getParameter("str");
 		String dot = req.getParameter("dot");
+		
+		
+		
+		//@RestController @RequestMapping
+		
+		
+		resp.getWriter().println("num : "+num);
+		
 	}
+	
+	
+
 }

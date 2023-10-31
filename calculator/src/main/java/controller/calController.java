@@ -21,5 +21,5 @@ public class calController extends HttpServlet {
 		req.getRequestDispatcher("/WEB-INF/view/cal.jsp").forward(req, resp);
 					
 	}
-
+ 
 }
