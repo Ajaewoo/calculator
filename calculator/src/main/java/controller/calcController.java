@@ -23,7 +23,7 @@ public class calcController extends HttpServlet {
 		
 		resp.getWriter().println("num : "+num);
 		
-		
+		//@RestController @RequestMapping
 	}
 	
 	
