@@ -8,6 +8,10 @@
 <style>
 	table{
 		border: 1px solid #444444;
+		border-top-left-radius:5px;
+		border-bottom-left-radius:5px;
+		border-top-right-radius:5px;
+		border-bottom-right-radius:5px;
 	}
 	th{
 		border:1px solid #444444;
@@ -18,10 +22,26 @@
 	}
 	tr,td{
 		border:1px solid #444444;
-		padding:10px;
-		height:25px;
-		width:25px;
+		padding:2px;
+		height:40px;
+		width:40px;
 		text-align:center;
+	}
+	input{
+		height:100%;
+		width:100%;
+		border-top-left-radius:5px;
+		border-bottom-left-radius:5px;
+		border-top-right-radius:5px;
+		border-bottom-right-radius:5px;
+	}
+	#home{
+		height:40px;
+		width:80px;
+		border-top-left-radius:5px;
+		border-bottom-left-radius:5px;
+		border-top-right-radius:5px;
+		border-bottom-right-radius:5px;
 	}
 	
 </style>
@@ -35,33 +55,33 @@
 				<th type="text" name="output" colspan="4">0</th>
 			</tr>
 			<tr>
-				<td><intput type="submit" name="" value="AC" ></intput></td>
-				<td><intput type="submit" name="" value="+/-" /></td>
-				<td><intput type="submit" name="str" value="%" /></td>
-				<td><intput type="submit" name="str" value="/" /></td>
+				<td><input type="submit" name="" value="AC" ></input></td>
+				<td><input type="submit" name="" value="+/-" /></td>
+				<td><input type="submit" name="str" value="%" /></td>
+				<td><input type="submit" name="str" value="/" /></td>
 			</tr>
 			<tr>
-				<td><intput type="submit" name="num" value="7" />7</td>
-				<td><intput type="submit" name="num" value="8" />8</td>
-				<td><intput type="submit" name="num" value="9" />9</td>
-				<td><intput type="submit" name="str" value="*" /></td>
+				<td><input type="submit" name="num" value="7" /></td>
+				<td><input type="submit" name="num" value="8" /></td>
+				<td><input type="submit" name="num" value="9" /></td>
+				<td><input type="submit" name="str" value="*" /></td>
 			</tr>
 			<tr>
-				<td><intput type="submit" name="num" value="4" /></td>
-				<td><intput type="submit" name="num" value="5" /></td>
-				<td><intput type="submit" name="num" value="6" /></td>
-				<td><intput type="submit" name="str" value="-" /></td>
+				<td><input type="submit" name="num" value="4" /></td>
+				<td><input type="submit" name="num" value="5" /></td>
+				<td><input type="submit" name="num" value="6" /></td>
+				<td><input type="submit" name="str" value="-" /></td>
 			</tr>
 			<tr>
-				<td><intput type="submit" name="num" value="1" /></td>
-				<td><intput type="submit" name="num" value="2" /></td>
-				<td><intput type="submit" name="num" value="3" /></td>
-				<td><intput type="submit" name="str" value="+" /></td>
+				<td><input type="submit" name="num" value="1" /></td>
+				<td><input type="submit" name="num" value="2" /></td>
+				<td><input type="submit" name="num" value="3" /></td>
+				<td><input type="submit" name="str" value="+" /></td>
 			</tr>
 			<tr>
-				<td colspan="2"><intput type="submit" name="num" value="0" /></td>
-				<td><intput type="submit" name="dot" value="." /></td>
-				<td><intput type="submit" name="str" value="=" /></td>
+				<td colspan="2"><input type="submit" name="num" value="0" /></td>
+				<td><input type="submit" name="dot" value="." /></td>
+				<td><input type="submit" name="str" value="=" /></td>
 			</tr>
 		</table>
 	</form>
